@@ -1,1 +1,1 @@
-g++ hello.cpp -o hello.o
+g++ *.cpp -o hello.o

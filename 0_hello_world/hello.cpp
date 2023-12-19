@@ -1,4 +1,6 @@
 #include <iostream>
+#include "hello_all.hpp"
+#include "hello_few.hpp"
 
 int main ( int argc,  char *argv[] )
 {
@@ -8,5 +10,7 @@ int main ( int argc,  char *argv[] )
     {
         std::cout << "Hello " << argv[i] << "!" << std::endl;
     }
+    hello_all();
+    hello_few();
     return 0;
 }
